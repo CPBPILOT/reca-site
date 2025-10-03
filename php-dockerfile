@@ -1,0 +1,13 @@
+# php-dockerfile
+FROM php:8.3-fpm
+
+# Needed for PHP extensions
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends libxml2-dev libcurl4-openssl-dev; \
+    rm -rf /var/lib/apt/lists/*
+
+# Enable DOM + cURL (used by scrape.php)
+RUN docker-php-ext-install -j"$(nproc)" dom curl
+
+WORKDIR /var/www

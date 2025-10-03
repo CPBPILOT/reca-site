@@ -1,0 +1,169 @@
+[
+    {
+        "date": "2025-09-09",
+        "pending": 7,
+        "approved": 0,
+        "denied": 0,
+        "total": 7,
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09092025"
+    },
+    {
+        "date": "2025-09-10",
+        "pending": 28,
+        "approved": 1,
+        "denied": 0,
+        "total": 29,
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09102025"
+    },
+    {
+        "date": "2025-09-11",
+        "pending": 54,
+        "approved": 1,
+        "denied": 0,
+        "total": 55,
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09112025"
+    },
+    {
+        "date": "2025-09-12",
+        "pending": 81,
+        "approved": 1,
+        "denied": 0,
+        "total": 82,
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09122025"
+    },
+    {
+        "date": "2025-09-15",
+        "pending": 101,
+        "approved": 1,
+        "denied": 0,
+        "total": 102,
+        "last_updated": "2025-09-24T08:28:48-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09152025"
+    },
+    {
+        "date": "2025-09-16",
+        "pending": 130,
+        "approved": 1,
+        "denied": 0,
+        "total": 131,
+        "last_updated": "2025-09-24T08:27:06-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09162025"
+    },
+    {
+        "date": "2025-09-17",
+        "pending": 132,
+        "approved": 1,
+        "denied": 0,
+        "total": 133,
+        "last_updated": "2025-09-24T08:26:57-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09172025"
+    },
+    {
+        "date": "2025-09-18",
+        "pending": 130,
+        "approved": 6,
+        "denied": 0,
+        "total": 136,
+        "last_updated": "2025-09-24T08:26:42-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09182025"
+    },
+    {
+        "date": "2025-09-19",
+        "pending": 174,
+        "approved": 6,
+        "denied": 0,
+        "total": 180,
+        "last_updated": "2025-09-24T08:26:32-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09192025"
+    },
+    {
+        "date": "2025-09-22",
+        "pending": 216,
+        "approved": 6,
+        "denied": 0,
+        "total": 222,
+        "last_updated": "2025-09-24T08:25:47-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09222025"
+    },
+    {
+        "date": "2025-09-23",
+        "pending": 247,
+        "approved": 6,
+        "denied": 0,
+        "total": 253,
+        "last_updated": "2025-09-24T08:25:02-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09232025"
+    },
+    {
+        "date": "2025-09-24",
+        "pending": 267,
+        "approved": 6,
+        "denied": 0,
+        "total": 273,
+        "last_updated": "2025-09-24T09:00:00-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09242025"
+    },
+    {
+        "date": "2025-09-25",
+        "pending": 311,
+        "approved": 7,
+        "denied": 0,
+        "total": 318,
+        "last_updated": "2025-09-25T08:00:00-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09252025"
+    },
+    {
+        "date": "2025-09-26",
+        "pending": 358,
+        "approved": 9,
+        "denied": 0,
+        "total": 367,
+        "last_updated": "2025-09-26T16:08:58-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09262025"
+    },
+    {
+        "date": "2025-09-29",
+        "pending": 409,
+        "approved": 9,
+        "denied": 0,
+        "total": 418,
+        "last_updated": "2025-09-29T08:00:00-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09292025"
+    },
+    {
+        "date": "2025-09-30",
+        "pending": 429,
+        "approved": 9,
+        "denied": 0,
+        "total": 438,
+        "last_updated": "2025-09-30T09:00:00-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-09302025"
+    },
+    {
+        "date": "2025-10-01",
+        "pending": 484,
+        "approved": 9,
+        "denied": 0,
+        "total": 493,
+        "last_updated": "2025-10-01T08:00:01-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-10012025"
+    },
+    {
+        "date": "2025-10-02",
+        "pending": 522,
+        "approved": 9,
+        "denied": 0,
+        "total": 531,
+        "last_updated": "2025-10-02T08:00:01-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-10022025"
+    },
+    {
+        "date": "2025-10-03",
+        "pending": 569,
+        "approved": 9,
+        "denied": 0,
+        "total": 578,
+        "last_updated": "2025-10-03T08:00:01-05:00",
+        "source": "https:\/\/www.justice.gov\/civil\/awards-date-10032025"
+    }
+]

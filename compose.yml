@@ -1,0 +1,66 @@
+services:
+  php_scraper:
+    build:
+      dockerfile: php-dockerfile     # your PHP-FPM image
+      context: .
+    volumes:
+      - ./php-files:/var/www
+    restart: unless-stopped
+    networks:
+      - scraper_backend
+    expose:
+      - "9000"                       # php-fpm port (internal)
+
+  nginx_scraper:
+    image: nginx:latest
+    restart: unless-stopped
+    volumes:
+      - ./php-files:/var/www
+      - ./nginx-conf:/etc/nginx/conf.d
+    networks:
+      - proxy
+      - scraper_backend
+      - internal
+    depends_on:
+      - php_scraper
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.scraper.entrypoints=http"
+      - "traefik.http.routers.scraper.rule=Host(`reca.bourque.io`)"
+      - "traefik.http.middlewares.scraper-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.scraper.middlewares=scraper-https-redirect"
+      - "traefik.http.routers.scraper-secure.entrypoints=https"
+      - "traefik.http.routers.scraper-secure.rule=Host(`reca.bourque.io`)"
+      - "traefik.http.routers.scraper-secure.tls=true"
+      - "traefik.http.routers.scraper-secure.service=scraper"
+      - "traefik.http.services.scraper.loadbalancer.server.port=80"
+      - "traefik.docker.network=proxy"
+    #healthcheck:
+    #  test: ["CMD-SHELL", "wget -qO- http://localhost/ >/dev/null 2>&1 || exit 1"]
+    #  interval: 30s
+    #  timeout: 5s
+    #  retries: 5
+
+  cron:
+    build:
+      context: .
+      dockerfile: cron.Dockerfile
+    environment:
+      - TZ=America/Chicago
+    volumes:
+      - ./php-files:/var/www        # shares data.json + cron.log
+    networks:
+      - scraper_backend
+    depends_on:
+      - nginx_scraper
+      #nginx_scraper:
+        #condition: service_healthy
+    restart: unless-stopped
+
+networks:
+  proxy:
+    external: true
+  scraper_backend:
+    external: true
+  internal:
+    external: true

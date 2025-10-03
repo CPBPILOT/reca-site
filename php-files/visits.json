@@ -1,0 +1,40 @@
+{
+    "totals": {
+        "pageviews": 214,
+        "uniques": 49
+    },
+    "days": {
+        "2025-09-26": {
+            "pageviews": 105,
+            "uniques": 10
+        },
+        "2025-09-27": {
+            "pageviews": 18,
+            "uniques": 5
+        },
+        "2025-09-28": {
+            "pageviews": 6,
+            "uniques": 6
+        },
+        "2025-09-29": {
+            "pageviews": 11,
+            "uniques": 6
+        },
+        "2025-09-30": {
+            "pageviews": 13,
+            "uniques": 7
+        },
+        "2025-10-01": {
+            "pageviews": 12,
+            "uniques": 9
+        },
+        "2025-10-02": {
+            "pageviews": 41,
+            "uniques": 25
+        },
+        "2025-10-03": {
+            "pageviews": 8,
+            "uniques": 4
+        }
+    }
+}
