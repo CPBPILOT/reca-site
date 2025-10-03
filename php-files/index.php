@@ -185,6 +185,7 @@ function n($v) { return number_format((int)$v); }
       Today: <?= number_format($pv) ?> views
       • All-time: <?= number_format($tpv) ?> views
     </p>
+    <p>View the source on <a href="https://github.com/CPBPILOT/reca-site" target="_blank" rel="noopener noreferrer">GitHub</a></p>
   </footer>
 </div>
 
