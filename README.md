@@ -18,8 +18,8 @@ The project focuses on **Manhattan Project waste site claims** — making it eas
 ## 🚀 Live Site
 
 The site is hosted here:  
-👉 [**Visit the Manhattan Project Waste Tracker**](#)  
-*reca.bourque.io*
+👉 [**Visit the Manhattan Project Waste Tracker**](reca.bourque.io)  
+
 
 ---
 
