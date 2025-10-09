@@ -40,3 +40,23 @@ The site is hosted here:
 
 ---
 
+⚖️ Disclaimer
+
+This project is not affiliated with the U.S. Department of Justice or the RECA program or Just Moms STL.
+All data is scraped from publicly available government sources.
+This site is provided as-is for informational and educational purposes only.
+
+❤️ Why This Exists
+
+Government datasets are often hard to navigate. This project aims to:
+
+Make RECA claim data more transparent and accessible.
+
+Provide a free resource without ads, logins, or tracking.
+
+Help researchers, journalists, and the public understand the history and impact of the Manhattan Project.
+
+📜 License
+
+This project is released under the MIT License.
+You are free to use, modify, and share it as long as attribution is given.
